@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Oswald:wght@200&family=Sofia+Sans+Semi+Condensed:ital@1&display=swap');
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font-family: 'Nunito';
+}
+
+@media screen and (min-width: 832px) {
+  .wrapper {
+    margin-top: 10%;
+    width: 80%;
+    height: 1200px;
+  }
+  .profile_section {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: var(--main-font-family);
+    justify-content: space-around;
+    background-color: rgba(164, 171, 171, 0.819);
+    padding: 5%;
+  }
+  .main_info_section {
+    height: calc(100% - 220px);
+    background-color: rgba(6, 21, 39, 0.868);
+  }
+  .profile_section__name h3 {
+    opacity: 0.9;
+    font-size: 28px;
+  }
+  .profile_section__name p {
+    opacity: 0.7;
+    font-size: 20px;
+  }
+  .profile_section__photo img {
+    display: block;
+    width: 150px;
+  }
+  .profile_section__mail h5 {
+    text-transform: lowercase;
+  }
+  .main_info_section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex_block {
+    width: 40%;
+    height: 200px;
+    margin-top: 5%;
+    display: flex;
+    font-family: var(--main-font-family);
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 5px;
+    background-color: rgba(245, 245, 220, 0.332);
+    border-radius: 5%;
+  }
+  li {
+    list-style: none;
+  }
+  .about_me_section {
+    font-size: 12px;
+  }
+  .flex_block h3 {
+    margin-bottom: 5%;
+  }
+  .flex_block a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .flex_block a:active {
+    text-decoration: none;
+    color: blue;
+  }
+  .flex_block a:visited {
+    text-decoration: none;
+    color: rgb(105, 188, 216);
+  }
+  .flex_block a {
+    text-decoration: none;
+    color: blue;
+  }
+  .skills_list {
+    text-align: center;
+    word-spacing: 30px;
+  }
+  .contact_link {
+    color: red;
+  }
+  .contact_section a {
+    color: rgb(228, 128, 128);
+  }
+  .contact_section a:visited {
+    color: rgb(228, 128, 128);
+  }
+  .projects_section a {
+    font-weight: 600;
+    padding-top: 10px;
+  }
+  .education_section {
+    font-weight: 600;
+  }
+  .faculty_link a {
+    color: rgb(39, 83, 21);
+  }
+  .faculty_link a:visited {
+    color: rgb(39, 83, 21);
+  }
+}
+@media screen and (min-width: 604px) and (max-width: 832px) {
+  .wrapper {
+    margin-top: 10%;
+    width: 80%;
+    height: 1800px;
+  }
+  .profile_section {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: var(--main-font-family);
+    justify-content: space-around;
+    background-color: rgba(164, 171, 171, 0.819);
+    padding: 5%;
+  }
+  .main_info_section {
+    height: calc(100% - 220px);
+    background-color: rgba(6, 21, 39, 0.868);
+  }
+  .profile_section__name {
+    margin-left: 5%;
+  }
+  .profile_section__name h3 {
+    opacity: 0.9;
+    font-size: 24px;
+  }
+  .profile_section__name p {
+    opacity: 0.7;
+    font-size: 16px;
+  }
+  .profile_section__photo img {
+    display: block;
+    width: 120px;
+  }
+  .profile_section__mail h5 {
+    text-transform: lowercase;
+  }
+  .main_info_section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex_block {
+    width: 70%;
+    height: 200px;
+    margin-top: 5%;
+    display: flex;
+    font-family: var(--main-font-family);
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 5px;
+    background-color: rgba(245, 245, 220, 0.332);
+    border-radius: 5%;
+  }
+  li {
+    list-style: none;
+  }
+  .about_me_section {
+    font-size: 12px;
+  }
+  .flex_block h3 {
+    margin-bottom: 5%;
+  }
+  .flex_block a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .flex_block a:active {
+    text-decoration: none;
+    color: blue;
+  }
+  .flex_block a:visited {
+    text-decoration: none;
+    color: rgb(105, 188, 216);
+  }
+  .flex_block a {
+    text-decoration: none;
+    color: blue;
+  }
+  .skills_list {
+    text-align: center;
+    word-spacing: 30px;
+  }
+  .contact_link {
+    color: red;
+  }
+  .contact_section a {
+    color: rgb(228, 128, 128);
+  }
+  .contact_section a:visited {
+    color: rgb(228, 128, 128);
+  }
+  .projects_section a {
+    font-weight: 600;
+    padding-top: 10px;
+  }
+  .education_section {
+    font-weight: 600;
+  }
+  .faculty_link a {
+    color: rgb(39, 83, 21);
+  }
+  .faculty_link a:visited {
+    color: rgb(39, 83, 21);
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 604px) {
+  .wrapper {
+    margin-top: 10%;
+    width: 80%;
+    height: 1800px;
+  }
+  .profile_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: var(--main-font-family);
+    justify-content: center;
+    background-color: rgba(164, 171, 171, 0.819);
+    padding: 5%;
+  }
+  .main_info_section {
+    height: calc(100% - 220px);
+    background-color: rgba(6, 21, 39, 0.868);
+  }
+
+  .profile_section__name h3 {
+    opacity: 0.9;
+    font-size: 24px;
+  }
+  .profile_section__name p {
+    opacity: 0.7;
+    font-size: 16px;
+  }
+  .profile_section__photo img {
+    display: block;
+    width: 120px;
+  }
+  .profile_section__mail h5 {
+    text-transform: lowercase;
+  }
+  .main_info_section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex_block {
+    width: 70%;
+    height: 200px;
+    margin-top: 5%;
+    display: flex;
+    font-family: var(--main-font-family);
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 5px;
+    background-color: rgba(245, 245, 220, 0.332);
+    border-radius: 5%;
+  }
+  li {
+    list-style: none;
+  }
+  .about_me_section {
+    font-size: 12px;
+  }
+  .flex_block h3 {
+    margin-bottom: 5%;
+  }
+  .flex_block a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .flex_block a:active {
+    text-decoration: none;
+    color: blue;
+  }
+  .flex_block a:visited {
+    text-decoration: none;
+    color: rgb(105, 188, 216);
+  }
+  .flex_block a {
+    text-decoration: none;
+    color: blue;
+  }
+  .skills_list {
+    text-align: center;
+    word-spacing: 6px;
+    font-size: 12px;
+  }
+  .contact_link {
+    color: red;
+  }
+  .contact_section a {
+    color: rgb(228, 128, 128);
+  }
+  .contact_section a:visited {
+    color: rgb(228, 128, 128);
+  }
+  .projects_section a {
+    font-weight: 600;
+    padding-top: 10px;
+  }
+  .education_section {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .faculty_link a {
+    color: rgb(39, 83, 21);
+  }
+  .faculty_link a:visited {
+    color: rgb(39, 83, 21);
+  }
+}
