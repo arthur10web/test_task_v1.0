@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Oswald:wght@200&family=Sofia+Sans+Semi+Condensed:ital@1&display=swap');
+:root {
+  --main-font-family: 'Nunito';
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
