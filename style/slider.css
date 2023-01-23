@@ -137,12 +137,7 @@ button {
   transition: 2s;
   cursor: pointer;
 }
-.non-visible {
-  opacity: 0;
-}
-.visible {
-  opacity: 1;
-}
+
 .slider {
   margin: 0 auto;
   width: 50%;
