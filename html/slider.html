@@ -6,20 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
     <link rel="stylesheet" href="../style/slider.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <div class="wrapper">
-      <div class="carousel">
-        <img
-          src="../img/1625875419_17-krasivosti-pro-p-kot-slesar-koti-krasivo-foto-17.jpg"
-          alt="meme"
-        />
-        <img src="../img/1_goqINJP.jpg" alt="meme" />
-        <img src="../img/citaty-volka-iz-tik-tok.jpg" alt="meme" />
-        <img src="../img/zhak-fresko-memy-12.jpg" alt="meme" />
-        <img src="../img/statusas-auf-volk1.jpg" alt="meme" />
+      <div class="menu">
+        <div class="burger_menu_border">
+          <div class="burger_menu"></div>
+        </div>
+        <div class="nav_elements passive_visible">
+          <p><a href="../index.html">Resume</a></p>
+          <p class="active_link"><a href="#">Slider</a></p>
+        </div>
+      </div>
+      <div class="slider_section">
+        <div class="slider" id="slider">
+          <img
+            class="slide visible"
+            src="../img/L5yCFGmMYEDkN4fcuq8tPMo1vLDAvb3T65HDh8N3YrCKQQOw4TlnQO59o6Lf_A9OwoizeY6LnRoqVZ6Us90Z8vZf.jpg"
+            alt=""
+          />
+          <img
+            class="slide non-visible"
+            src="../img/fc02T1KaGU_scNdVJ7KBk8HarQMv1GtXV0FX0IirdDOVkqcl0soJU3YilxMn_FW9tORgCtd6rKPH-KafQ11zB2SV.jpg"
+            alt=""
+          />
+          <img
+            class="slide non-visible"
+            src="../img/l5cHgb9okjKlcUCLU4coFpaFHGXEwURQnJBm_FrFzYObBZp8Ij10nc1bxtLAegOpppyidVs6N1JIdtPNcBDibsId.jpg"
+            alt=""
+          />
+          <img
+            class="slide non-visible"
+            src="../img/rpkA9J4IqCtRsbOp7vzJKH0l99ogilQrdx6czOERNMZffbVeUJJJBXZMBc01Kb9aKc_JERwjfwtpVHI0ymL6B0MS.jpg"
+            alt=""
+          />
+          <img
+            class="slide non-visible"
+            src="../img/qJusrZDtJ0WONuVoJy89aWFuyAaXCDlXXW6xgxuKuS4df_cyFmNkw5ojTQMpp6_on7oZlbRNGy61DFJrNfVuXRMj.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </div>
+
     <script src="../script/slider.js"></script>
   </body>
 </html>
